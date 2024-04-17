@@ -60,21 +60,29 @@ header nav ul li a:hover{
   background-color: yellow;
   border-radius: 10px;
   text-align: center;
+  max-width: 100%; 
+  overflow: hidden; 
+  box-sizing: border-box;
 }
 
-.cuadro-1 h1{
+.cuadro-1 h1,
+.cuadro-2 h2,
+.cuadro-3 h3{
   text-align: center;
   padding: 15px;
 }
 
-.cuadro-1 p{
+.cuadro-1 p,
+.cuadro-2 p,
+.cuadro-3 p{
   text-align: justify;
   padding: 30px;
+  
 }
 
 .cuadro-1 img{
-  width: auto;
-  height: 150px;
+  max-width: 100%; /* Ajusta el ancho máximo de la imagen */
+  height: 120px; 
   display: inline-block;
   margin: 0 auto;
   border-radius: 80px;
@@ -85,32 +93,17 @@ header nav ul li a:hover{
   color: black;
   background-color: whitesmoke;
   border-radius: 10px;
-}
-
-.cuadro-2 h2{
-  text-align: center;
-  padding: 15px;
-}
-
-.cuadro-2 p{
-  text-align: justify;
-  padding: 30px;
+  max-width: 100%; 
+  overflow: hidden; 
+  box-sizing: border-box;
 }
 
 .cuadro-3{
-  color: black;
+  color: white;
   background-color: rgb(22, 22, 207);
   border-radius: 10px;
+  max-width: 100%; 
+  overflow: hidden; 
+  box-sizing: border-box;
 }
-
-.cuadro-3 h3{
-  text-align: center;
-  padding: 15px;
-}
-
-.cuadro-3 p{
-  text-align: justify;
-  padding: 30px;
-}
-
 
